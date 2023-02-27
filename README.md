@@ -1,7 +1,8 @@
-# Java Template
+# Java Maps
 
 ## Learning Objectives
-- Example learning objective
+- Use HashMaps to store and access key value data pairs
+- Use generic typing to define types contained in a HashMap
 
 ## Set up instructions
 - Fork this repository and clone the forked version to your machine
