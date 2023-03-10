@@ -1,9 +1,11 @@
 package com.booleanuk.core;
 
+import com.booleanuk.helpers.ExerciseBase;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Exercise {
+public class Exercise extends ExerciseBase {
     /*
         The final fundamental building block of Java is a Map. There is still much to learn about the language,
         but this component will allow you to start building lots of more complex pieces of software.
@@ -92,5 +94,8 @@ public class Exercise {
 
 
         // ...and above this comment
+
+        // Change the return statement below to return your actual ArrayList
+        return new ArrayList<String>();
     }
 }
