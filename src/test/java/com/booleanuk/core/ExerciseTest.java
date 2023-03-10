@@ -27,8 +27,8 @@ class ExerciseTest {
             put("vocation", "Artist");
         }};
 
-        Assertions.assertTrue(this.exercise.hasKey("vocation"));
-        Assertions.assertFalse(this.exercise.hasKey("wubbalubbadubdub"));
+        Assertions.assertTrue(this.exercise.hasKey(map, "vocation"));
+        Assertions.assertFalse(this.exercise.hasKey(map, "wubbalubbadubdub"));
     }
 
     @Test
