@@ -68,7 +68,7 @@ class ExerciseTest {
         Assertions.assertEquals("chicken", result2.get(0));
         Assertions.assertEquals("nice", result2.get(1));
         Assertions.assertEquals("chicken", result2.get(2));
-        Assertions.assertEquals("soup", result2.get(2));
+        Assertions.assertEquals("soup", result2.get(3));
 
         ArrayList<Integer> list3 = new ArrayList<>(){{
             add(918);
