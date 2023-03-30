@@ -1,9 +1,11 @@
 package com.booleanuk.core;
 
+import com.booleanuk.helpers.ExerciseBase;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Exercise {
+public class Exercise extends ExerciseBase {
     /*
         The final fundamental building block of Java is a Map. There is still much to learn about the language,
         but this component will allow you to start building lots of more complex pieces of software.
@@ -40,42 +42,42 @@ public class Exercise {
     }
 
     /*
-        1. Create a method named getValue that accepts one parameter:
-        - a string key
-        The method must return the value associated to the provided key from the HashMap created
-        in the createPerson method
+        TODO: 1. Create a method named getValue that accepts one parameter:
+         - a string key
+         The method must return the value associated to the provided key from the HashMap created
+         in the createPerson method
      */
 
 
 
     /*
-        2. Create a method named hasKey that accepts two parameters:
-        - A HashMap of String, String key value pairs
-        - A string
-        The method must return a boolean that represents whether the string provided exists as a key
-        in the provided HashMap
+        TODO: 2. Create a method named hasKey that accepts two parameters:
+         - A HashMap of String, String key value pairs
+         - A string
+         The method must return a boolean that represents whether the string provided exists as a key
+         in the provided HashMap
      */
 
 
 
     /*
-        3. Create a method named getValueOrDefault that accepts two parameters:
-        - A HashMap of String, Integer key value pairs
-        - A string
-        The method must use the string provided to return the integer contained in the provided HashMap,
-        or -1 if the string provided is not a key in the HashMap
+        TODO: 3. Create a method named getValueOrDefault that accepts two parameters:
+         - A HashMap of String, Integer key value pairs
+         - A string
+         The method must use the string provided to return the integer contained in the provided HashMap,
+         or -1 if the string provided is not a key in the HashMap
      */
 
 
 
     /*
-        4. Complete the method below
-        Example input & output:
-
-        input                       output
-        [42, 6712, 7]           |   ArrayList<String> ["universe", "bass", "muse"]
-        [23, 19, 96, 23, 165]   |   ArrayList<String> ["chicken", "nice", "chicken", "soup"]
-        [918, 71, 88]           |   ArrayList<String> []
+        TODO: 4. Complete the method below
+         Example input & output:
+         .
+         input                       output
+         [42, 6712, 7]           |   ArrayList<String> ["universe", "bass", "muse"]
+         [23, 19, 96, 23, 165]   |   ArrayList<String> ["chicken", "nice", "chicken", "soup"]
+         [918, 71, 88]           |   ArrayList<String> []
      */
     public ArrayList<String> buildSecretPhrase(ArrayList<Integer> numbers) {
         // Do not modify the map
@@ -92,5 +94,8 @@ public class Exercise {
 
 
         // ...and above this comment
+
+        // Change the return statement below to return your actual ArrayList
+        return new ArrayList<String>();
     }
 }
