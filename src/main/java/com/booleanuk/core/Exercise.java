@@ -4,7 +4,6 @@ import com.booleanuk.helpers.ExerciseBase;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-
 public class Exercise extends ExerciseBase {
     /*
         The final fundamental building block of Java is a Map. There is still much to learn about the language,
